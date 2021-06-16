@@ -1,0 +1,25 @@
+.input {
+  display: flex;
+}
+
+.input input {
+  height: 1.5rem;
+  width: 3rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+.input label {
+  margin-right: 0.4rem;
+  margin-top: 0.3rem;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .input label {
+    font-size: 0.9rem;
+  }
+}

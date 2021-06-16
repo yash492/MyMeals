@@ -1,0 +1,35 @@
+.cart-item {
+  display: flex;
+  border-bottom: #ccc solid 1px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.name {
+  margin-bottom: 0.6rem;
+  margin-top: 0;
+}
+
+.amount {
+  margin-left: 1.5rem;
+  border: #ccc 1px solid;
+  padding: 0.2rem 0.6rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.price {
+  color: #00693e;
+  font-size: 1.09rem;
+}
+
+.price-amount {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .amount {
+    margin-left: 0.8rem;
+  }
+}

@@ -1,0 +1,65 @@
+.cart-card {
+  display: flex;
+  max-width: 70%;
+  width: 30rem;
+  margin: auto;
+  margin-top: 5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  background-color: #fff;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  padding: 0 2rem;
+  z-index: 5;
+  max-height: 40vh;
+}
+
+.overflow {
+  overflow: auto;
+  padding-right: 0.5rem;
+}
+
+.total-amount {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.h3-tag {
+  margin-top: 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+}
+
+.button {
+  color: #fff;
+  background-color: #00693e;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:first-child {
+  margin-right: 1rem;
+}
+
+.button:nth-child(2) {
+  background-color: #fff;
+  color: #00693e;
+  border: 1px solid #00693e;
+}
+
+.button:hover {
+  background-color: #004d2d;
+}
+
+.button:nth-child(2):hover {
+  background-color: #00693e;
+  color: #fff;
+}

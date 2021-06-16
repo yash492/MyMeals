@@ -1,0 +1,44 @@
+.button {
+  display: flex;
+  align-items: center;
+  background-color: #004d2d;
+  padding: 0 1.5rem;
+  border-radius: 8px;
+}
+
+.space {
+  margin-right: 0.8rem;
+}
+
+.amount-of-items {
+  background-color: #00693e;
+  padding: 0 0.6rem;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.center {
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.button:hover {
+  background-color: #00331e;
+  cursor: pointer;
+}
+
+.button:hover .amount-of-items {
+  background-color: #004d2d;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    padding: 0.5rem 0.5rem;
+  }
+  .cart-visibility {
+    display: none;
+  }
+  .space {
+    margin-right: 0.3rem;
+  }
+}

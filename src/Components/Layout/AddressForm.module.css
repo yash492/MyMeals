@@ -1,0 +1,89 @@
+.form {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  max-width: 35rem;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.error-message {
+  color: #b42525;
+  font-size: 0.7rem;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.h2 {
+  color: #00693e;
+  font-size: 1.8rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input input {
+  height: 1.7rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  padding: 0 0.1rem;
+}
+.input label {
+  margin-bottom: 0.5rem;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+.button {
+  max-width: 35%;
+  width: 7rem;
+  height: 2rem;
+}
+
+.button:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+.back {
+  color: #00331e;
+  background-color: #fff;
+  border: #00331e 1px solid;
+  max-width: 35%;
+  width: 5rem;
+  height: 2rem;
+}
+
+.back:hover {
+  color: #fff;
+  background-color: #004d2d;
+}
+
+.modal {
+  position: fixed;
+  z-index: 6;
+  width: 100%;
+  top: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .input label {
+    font-size: 0.9rem;
+  }
+  .input input {
+    margin-left: 0rem;
+  }
+  .input label {
+    margin-left: 0.5rem;
+  }
+}

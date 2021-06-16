@@ -1,0 +1,16 @@
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  z-index: 5;
+  top: 0;
+  left: 0;
+}
+
+.modal {
+  position: fixed;
+  z-index: 6;
+  width: 100%;
+  top: 8rem;
+}

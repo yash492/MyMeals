@@ -1,0 +1,23 @@
+.button {
+  padding: 0.3rem 0.8rem;
+  text-align: center;
+  border: none;
+  background-color: #00693e;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:first-child {
+  margin-right: 0.5rem;
+}
+
+.button:nth-child(2) {
+  padding: 0.3rem 0.9rem;
+}
+
+.button:hover {
+  background-color: #004d2d;
+}
